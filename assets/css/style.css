@@ -3,13 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -937,6 +930,18 @@ main {
   transition: var(--transition-1);
 }
 
+.project-site {
+  color: white;
+  text-decoration: underline;
+  margin-left: 2%;
+}
+
+.project-site:hover{
+  color: gray;
+  text-decoration: none;
+
+}
+
 .project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
 
 .project-item-icon-box {
@@ -1822,3 +1827,4 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
